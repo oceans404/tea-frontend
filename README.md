@@ -1,8 +1,21 @@
-# Getting Started with Create React App
+# Anon Tea
+
+Anon Tea is a web app that allows you to read anonymous tea about different topics.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+
+- Node.js
+- custom Nillion API endpoints (Clone and run https://github.com/oceans404/blind_confessions)
+
 ## Available Scripts
+
+Before running the app, set the `REACT_APP_API_BASE_URL` environment variable to your Nillion API endpoint.
+
+---
+
+All the normal create-react-app scripts are available:
 
 In the project directory, you can run:
 
