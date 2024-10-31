@@ -8,12 +8,13 @@ const HomePage = () => {
   const baseUrl = process.env.REACT_APP_API_BASE_URL;
 
   const fetchTopics = async () => {
-    try {
-      const response = await axios.get(`${baseUrl}/api/topics`);
-      setTopics(response.data.topics);
-    } catch (error) {
-      console.error('Error fetching topics:', error);
-    }
+    // try {
+    //   const response = await axios.get(`${baseUrl}/api/topics`);
+    //   setTopics([{ id: 9, name: 'demo' }]);
+    // } catch (error) {
+    //   console.error('Error fetching topics:', error);
+    // }
+    setTopics([{ id: 9, name: 'demo' }]);
   };
 
   useEffect(() => {
